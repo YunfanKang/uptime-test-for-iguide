@@ -3,6 +3,8 @@ owner: Yunfan # Your GitHub organization or username, where this repository live
 repo: uptime-test-for-iguide # The name of this repository
 
 sites:
+  - name: I-GUIDE
+    url: https://iguide.illinois.edu/
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
@@ -20,9 +22,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  status-website:
-    baseUrl: /uptime-test-for-iguide
-    name: Upptime test
+  baseUrl: /uptime-test-for-iguide
+  name: Upptime test
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
